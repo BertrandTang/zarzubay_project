@@ -1,33 +1,40 @@
 .presentation {
-    border: solid 5px red;
+    // border: solid 5px red;
     font-family: Nunito, sans-serif;
 
     &__container {
-        border: solid 5px violet;
-        position:relative; 
+        // border: solid 5px violet;
+        position: absolute; 
         text-align: center;
+        width : 1350px;
+        margin: 0px 260px;
     }
 
     &__title {
-        border:solid 5px green;
+        // border:solid 5px green;
+        text-shadow: 2px 2px 2px black;
         font-size: 5rem;
         font-weight: bold;
-        color: rgb(232, 175, 189);
-        margin-bottom: 20px;
+        color: rgb(255, 130, 161);
+        margin-bottom: 50px;
     }
 
     &__text {
-        border:solid 5px blue;
+        // border:solid 5px blue;
+        padding: 1rem;
+        border-radius: 15px;
         font-size: 1.5rem;
-        margin-bottom: 20px;
-        background-color: rgba(231, 141, 163, 0.5);
+        margin-bottom: 30px;
+        line-height: 45px;
+        background-color: rgba(231, 141, 163, 0.8);
     }
 
 
 }
 
 .carousel {
-    border: solid 5px purple;
+    // border: solid 5px purple;
     text-align: center;
+    
 }
 
