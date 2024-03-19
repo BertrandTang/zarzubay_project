@@ -1,0 +1,35 @@
+.characters {
+
+
+    &__button {
+        border : solid 2px red;
+        height: 150px;
+        width: 100%;
+        display: flex;
+        margin: 0%;
+        
+       
+              
+        
+        &--icon {
+            border : solid 2px green;
+            border-radius: 100%;
+            padding : 0%;
+            margin: 3px;
+            width: 150px;
+          
+            
+            
+                &--img {
+                border : solid 2px blue;
+                height: 100%;
+                width: 100%; 
+                border-radius: 100%;
+                cursor: pointer;
+                
+                
+         }
+
+        }
+    }
+}
