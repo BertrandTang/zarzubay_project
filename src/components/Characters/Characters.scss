@@ -1,12 +1,51 @@
 .characters {
 
+    &__descriptions {
+        border: solid 2px rgb(72, 52, 37); 
+        text-align: center;  
+        font-family: Nunito, sans-serif;  
+        border-radius: 10px; 
+        background-color: rgba(106, 71, 57, 0.3);
+    }
+
+    &__title {
+        // border: solid 2px rgb(216, 17, 17);
+        font-size: 3rem;
+        color:rgb(145, 103, 71);
+        text-shadow: 3px 3px 3px rgb(0, 0, 0);
+       
+    }
+
+    &__info {
+        // border: solid 2px rgb(17, 216, 17);
+        display: flex;
+    }
+
+    &__text {
+        // border: solid 2px rgb(113, 89, 218);
+        line-height: 35px;
+        padding: 5px;
+        margin: 0px 50px;
+        font-size: 1.1rem;
+
+        
+    }
+
+    &__pictures {
+        &--img {
+            // border: solid 2px rgb(52, 208, 216);
+            width: 350px;
+            margin: 0px 50px;
+            padding-bottom: 50px; 
+        }
+    }
 
     &__button {
         border : solid 2px red;
-        height: 150px;
-        width: 100%;
+        height: 100%;
+        width: 115rem;
         display: flex;
-        margin: 0%;
+        margin: 0% 1.5%;
         
        
               
@@ -15,9 +54,8 @@
             border : solid 2px green;
             border-radius: 100%;
             padding : 0%;
-            margin: 3px;
-            width: 150px;
-          
+            margin: 25px;
+            width: 80%;      
             
             
                 &--img {

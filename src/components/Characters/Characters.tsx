@@ -5,13 +5,20 @@ function Characters(){
         <section className='characters'>
             <article className='characters__descriptions'>
                 <h2 className='characters__title'>Aurora</h2>
-                <p className='characters__text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non cupiditate pariatur maxime provident mollitia voluptates error temporibus ex dolorum voluptatem facere officia accusamus dolores molestias architecto ratione dolorem distinctio iusto suscipit quo eligendi maiores, ad recusandae quam. Voluptatum possimus ad quis odit obcaecati maxime dolorem aliquid esse nam doloremque ipsa cum ab recusandae quisquam, reiciendis consequatur at facere dicta adipisci totam non quia eos? Laboriosam, commodi. Laboriosam, optio dignissimos. Minima, soluta necessitatibus est unde accusamus, ad quasi consectetur qui omnis laudantium dicta enim, minus quibusdam vitae totam architecto iste molestiae! Fuga praesentium aspernatur quasi, odit porro exercitationem laborum. Ratione perferendis autem provident a necessitatibus in nobis explicabo facilis, eos vitae voluptas temporibus expedita officiis sed natus ipsam nam unde perspiciatis! Ipsa maiores, neque dolores, porro quis tenetur aliquam ab soluta labore optio hic ducimus explicabo voluptas. Dolor quam error, laborum facere, veritatis officia laudantium, optio aspernatur iusto atque et blanditiis?</p>
+                <section className='characters__info'> 
+                <p className='characters__text'>Aurora Giulietta De Angelo, 28 ans, est une vétérinaire italienne spécialisée en NAC. D’un tempérament introvertie et plutôt timide de prime abord, elle mène une vie discrète, préférant la solitude avec ses animaux à la société. Non dépourvu de charme, cette jeune femme au paraître chirurgicale mêle professionnalisme et bienveillance à travers sa voix douce, son odeur enivrante rappelant celle des pommes d’amour, et ses capacités médicales reconnues dans son milieu. Derrière cette image de femme forte, se cache néanmoins une histoire marquée par des trahisons passées et des blessures encore fraîches qu’elle continue encore aujourd’hui, de panser.<br/>
+                Elle voue une passion profonde pour les animaux et rêve d'ouvrir un refuge pour eux à Zarzubay. Ses animaux de compagnie, dont Castiel le caméléon espiègle, sont ses plus fidèles compagnons et ses meilleurs amis, en effet, un animal ne trahira jamais un maître qui le chéri.<br/>
+                Aurora est une femme complexe qui cache ses secrets derrière un sourire charmeur. Elle cherche l'amour authentique tout en craignant d'être trahie une fois de trop. Une femme à la recherche de l'amour, mais avec un passé mystérieux qui intrigue et fascine ceux qui gravitent autour d’elle, mais d’autant plus ceux qui ne la connaissent pas.
 
-            </article>
-            <article className='characters__pictures'>
-              
-            
-            </article>
+</p>
+
+                <article className='characters__pictures'>
+                    <img className='characters__pictures--img' src='public/img/aurora01.png'/>
+                
+                
+                </article>
+                </section>
+         </article>
             <article className='characters__button'>
                 <button className='characters__button--icon'><img className='characters__button--icon--img' src='public/img/aurora_icon.png'/></button>
                 <button className='characters__button--icon'><img className='characters__button--icon--img' src='public/img/charlie_icon.png'/></button>
