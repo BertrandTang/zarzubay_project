@@ -13,25 +13,25 @@ function Characters(){
 </p>
 
                 <article className='characters__pictures'>
-                    <img className='characters__pictures--img' src='public/img/aurora01.png'/>
+                    <img className='characters__pictures--img' src='/img/aurora01.png'/>
                 
                 
                 </article>
                 </section>
          </article>
             <article className='characters__button'>
-                <button className='characters__button--icon'><img className='characters__button--icon--img' src='public/img/aurora_icon.png'/></button>
-                <button className='characters__button--icon'><img className='characters__button--icon--img' src='public/img/charlie_icon.png'/></button>
-                <button className='characters__button--icon'><img className='characters__button--icon--img' src='public/img/esteban_icon.png'/></button>
-                <button className='characters__button--icon'><img className='characters__button--icon--img' src='public/img/ethan_icon.png'/></button>
-                <button className='characters__button--icon'><img className='characters__button--icon--img' src='public/img/gaby_icon.png'/></button>
-                <button className='characters__button--icon'><img className='characters__button--icon--img' src='public/img/karim_icon.png'/></button>
-                <button className='characters__button--icon'><img className='characters__button--icon--img' src='public/img/leila_icon.png'/></button>
-                <button className='characters__button--icon'><img className='characters__button--icon--img' src='public/img/mirabella_icon.png'/></button>
-                <button className='characters__button--icon'><img className='characters__button--icon--img' src='public/img/nana_icon.png'/></button>
-                <button className='characters__button--icon'><img className='characters__button--icon--img' src='public/img/noah_icon.png'/></button>
-                <button className='characters__button--icon'><img className='characters__button--icon--img' src='public/img/sasha_icon.png'/></button>
-                <button className='characters__button--icon'><img className='characters__button--icon--img' src='public/img/theo_icon.png'/></button> 
+                <button className='characters__button--icon'><img className='characters__button--icon--img' src='/img/aurora_icon.png'/></button>
+                <button className='characters__button--icon'><img className='characters__button--icon--img' src='/img/charlie_icon.png'/></button>
+                <button className='characters__button--icon'><img className='characters__button--icon--img' src='/img/esteban_icon.png'/></button>
+                <button className='characters__button--icon'><img className='characters__button--icon--img' src='/img/ethan_icon.png'/></button>
+                <button className='characters__button--icon'><img className='characters__button--icon--img' src='/img/gaby_icon.png'/></button>
+                <button className='characters__button--icon'><img className='characters__button--icon--img' src='/img/karim_icon.png'/></button>
+                <button className='characters__button--icon'><img className='characters__button--icon--img' src='/img/leila_icon.png'/></button>
+                <button className='characters__button--icon'><img className='characters__button--icon--img' src='/img/mirabella_icon.png'/></button>
+                <button className='characters__button--icon'><img className='characters__button--icon--img' src='/img/nana_icon.png'/></button>
+                <button className='characters__button--icon'><img className='characters__button--icon--img' src='/img/noah_icon.png'/></button>
+                <button className='characters__button--icon'><img className='characters__button--icon--img' src='/img/sasha_icon.png'/></button>
+                <button className='characters__button--icon'><img className='characters__button--icon--img' src='/img/theo_icon.png'/></button> 
             </article>
         </section>
     )

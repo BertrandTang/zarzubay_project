@@ -3,7 +3,7 @@ import Carousel from '../Carousel/Carousel';
 import CarouselData from '../../assets/data/CarouselData';
 
 
-function Presentation() {
+function PresentationSection() {
     return (
         <><><section className="presentation">
                 <article className="presentation__container">
@@ -20,4 +20,4 @@ function Presentation() {
 }
 
 
-export default Presentation;
+export default PresentationSection;
