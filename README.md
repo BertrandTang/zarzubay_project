@@ -5,18 +5,18 @@ One page landing page showcasing "Love in Zarzubay" an original otome game
 ## Dependancies & Libraries used in this project : 
 
 - Vite.js
+  > `npm create vite@latest`
   > Config : React/Typescript + SWC
 - React
 - SASS 
-  > npm install -g sass
-  > npm i -D sass
+  > `npm install -g sass`
+  > `npm i -D sass`
 - Gitmoji
 
+## Start the project : 
 
-
-
-
-
+Run `npm install` once you've cloned the repository
+Run `npm run dev` and let's go !
 
 # React + TypeScript + Vite
 

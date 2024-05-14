@@ -5,8 +5,7 @@ import CarouselData from '../../assets/data/CarouselData';
 
 function Presentation() {
     return (
-        <><>
-        <section className="presentation">
+        <><><section className="presentation">
                 <article className="presentation__container">
                     <h1 className="presentation__title"><span>Love</span> in Zarzubay</h1>
                     <p className="presentation__text">Love in Zarzubay is an episodic Otome Game set in the beautiful coastal town of Zarzubay, overlooking an ocean of wonders to explore. <br />
@@ -15,7 +14,8 @@ function Presentation() {
                     </p>
                 </article>
         </section>
-        </><Carousel slides={CarouselData} /></>
+        </>
+        <Carousel slides={CarouselData} /></>
     )
 }
 
