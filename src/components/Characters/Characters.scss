@@ -1,75 +1,84 @@
 .characters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  &__descriptions .Aurora {
+    color: pink;
+  }
+
+  .Aurora {
+    border: solid 2px rgb(72, 52, 37);
+    background-color: rgba(106, 71, 57, 0.3);
+    color: rgb(145, 103, 71);
+  }
+ 
+
+  #Charlie {
+    border: solid 2px rgb(42, 100, 106);
+    background-color: rgba(8, 95, 101, 0.3);
+    color: rgb(41, 124, 126);
+  }
+
+  &__descriptions {
+    text-align: center;
+    font-family: Nunito, sans-serif;
+    border-radius: 10px;  
+  }
+
+  &__title {
+    border: solid 2px rgb(236, 188, 93);
+    font-size: 3rem;
+  
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+  }
+
+  &__info {
+    border: solid 2px rgb(17, 216, 17);
     display: flex;
-    flex-direction: column;
-    align-items: center;
+  }
 
-    &__descriptions {
-        border: solid 2px rgb(72, 52, 37); 
-        text-align: center;  
-        font-family: Nunito, sans-serif;  
-        border-radius: 10px; 
-        background-color: rgba(106, 71, 57, 0.3);
+  &__text {
+    border: solid 2px rgb(113, 89, 218);
+    line-height: 35px;
+    padding: 5px;
+    margin: 0px 50px;
+    font-size: 1.1rem;
+  }
+
+  &__pictures {
+    &--img {
+      border: solid 2px rgb(52, 208, 216);
+      width: 350px;
+      margin: 0px 5rem;
+      padding-bottom: 50px;
     }
+  }
 
-    &__title {
-        // border: solid 2px rgb(216, 17, 17);
-        font-size: 3rem;
-        color:rgb(145, 103, 71);
-        text-shadow: 3px 3px 3px rgb(0, 0, 0);
-       
-    }
-
-    &__info {
-        // border: solid 2px rgb(17, 216, 17);
-        display: flex;
-    }
-
-    &__text {
-        // border: solid 2px rgb(113, 89, 218);
-        line-height: 35px;
-        padding: 5px;
-        margin: 0px 50px;
-        font-size: 1.1rem;
-
-        
-    }
-
-    &__pictures {
-        &--img {
-            // border: solid 2px rgb(52, 208, 216);
-            width: 350px;
-            margin: 0px 50px;
-            padding-bottom: 50px; 
-        }
-    }
+  &__container {
+    border: solid 2px red;
+    display: flex;
 
     &__button {
-        border : solid 2px red;
-        width: 150svh;
-        display: flex;
-        overflow: hidden;
-        scroll-behavior: smooth;
-        
-       
-              
-        
-        &--icon {
-            border : solid 2px green;
-            border-radius: 100%;
-            padding : 0%;
-            width: 100%;      
-            
-                &--img {
-                border : solid 2px blue;
-                height: 100%;
-                width: 100%; 
-                border-radius: 100%;
-                object-fit: cover;
-                cursor: pointer;
-                
-                
-         }
+        //border: solid 2px green;
+        margin: 0rem 0.2rem;
+        padding:0;
+        border-radius: 100%;
+        height: 150px;
+        width: 150px;
 
+      &--icon {
+        border: solid 2px blue;
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        object-fit: cover;
+        cursor: pointer;
         }
+        &--icon:hover{
+            border-radius: 0;
+          }
+      }
+      
     }
-}
+  }
