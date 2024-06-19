@@ -4,7 +4,7 @@ function Characters() {
   return (
     <section className="characters">
 
-      <article id ="Aurora" className="characters__descriptions Aurora">
+      <article id ="Aurora" className="characters__descriptions">
         <h2 className="characters__title">Aurora</h2>
         <section className="characters__info">
           <p className="characters__text">
