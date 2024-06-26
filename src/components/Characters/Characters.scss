@@ -3,114 +3,140 @@
   flex-direction: column;
   align-items: center;
   
-  &__descriptions .Aurora {
-    color: pink;
-  }
-
+  
   #Aurora {
     border: solid 2px rgb(72, 52, 37);
     background-color: rgba(106, 71, 57, 0.3);
     color: rgb(145, 103, 71);
+    width: 1750px;
+    height: 850px;
   }
 
   #Charlie {
     border: solid 2px rgb(42, 100, 106);
     background-color: rgba(8, 95, 101, 0.3);
     color: rgb(41, 124, 126);
+    width: 1750px;
+    height: 850px;
   }
 
   #Esteban {
     border: solid 2px rgb(197, 107, 163);
     background-color: rgba(147, 99, 129, 0.3);
     color: rgb(198, 107, 153);
+    width: 1750px;
+    height: 850px;
   }
 
   #Ethan {
     border: solid 2px rgb(66, 120, 91);
     background-color: rgba(19, 99, 60, 0.3);
     color: rgb(18, 97, 67);
+    width: 1750px;
+    height: 850px;
   }
 
   #Gaby {
     border: solid 2px rgb(210, 74, 20);
     background-color: rgba(101, 44, 8, 0.3);
     color: rgb(152, 59, 19);
+    width: 1750px;
+    height: 850px;
   }
 
   #Karim {
     border: solid 2px rgb(82, 150, 199);
     background-color: rgba(17, 51, 138, 0.3);
     color: rgb(26, 96, 139);
+    width: 1750px;
+    height: 850px;
   }
 
   #Leila {
     border: solid 2px rgb(117, 59, 180);
     background-color: rgba(59, 15, 106, 0.3);
     color: rgb(94, 41, 138);
+    width: 1750px;
+    height: 850px;
   }
 
   #Mirabella {
     border: solid 2px rgb(103, 9, 9);
     background-color: rgba(93, 24, 24, 0.3);
     color: rgb(109, 16, 16);
+    width: 1750px;
+    height: 850px;
   }
 
   #Nana {
     border: solid 2px rgb(70, 126, 63);
     background-color: rgba(17, 97, 39, 0.3);
     color: rgb(88, 145, 100);
+    width: 1750px;
+    height: 850px;
   }
 
   #Noah {
     border: solid 2px rgb(170, 164, 101);
     background-color: rgba(79, 80, 47, 0.3);
     color: rgb(247, 245, 135);
+    width: 1750px;
+    height: 850px;
   }
 
   #Sasha {
     border: solid 2px rgb(215, 121, 165);
     background-color: rgba(110, 56, 88, 0.3);
     color: rgb(255, 170, 220);
+    width: 1750px;
+    height: 850px;
   }
   
   #Theo {
     border: solid 2px rgb(206, 140, 74);
     background-color: rgba(111, 66, 18, 0.3);
     color: rgb(184, 114, 39);
+    width: 1750px;
+    height: 850px;
   }
 
   &__descriptions {
     text-align: center;
     font-family: Nunito, sans-serif;
     border-radius: 10px;  
+    width: 100%;
+    padding: 0px 25px;
   }
 
   &__title {
-    border: solid 2px rgb(236, 188, 93);
-    font-size: 3rem;
-  
+    // border: solid 2px rgb(236, 188, 93);
+    font-size: 4rem;
+    margin: 5px 0px 20px 0px;  
     text-shadow: 3px 3px 3px rgb(0, 0, 0);
   }
 
   &__info {
-    border: solid 2px rgb(17, 216, 17);
+    // border: solid 2px rgb(17, 216, 17);
+    width: 1700px;
+    height: 730px;
     display: flex;
   }
 
   &__text {
-    border: solid 2px rgb(113, 89, 218);
-    line-height: 35px;
-    padding: 5px;
-    margin: 0px 50px;
-    font-size: 1.1rem;
+    // border: solid 2px rgb(113, 89, 218);
+    line-height: 30.5px;
+    padding: 10px;
+    margin: 25px 100px 0px 5px;
+    font-size: 20px;
   }
 
   &__pictures {
     &--img {
-      border: solid 2px rgb(52, 208, 216);
-      width: 350px;
-      margin: 0px 5rem;
-      padding-bottom: 50px;
+      // border: solid 2px rgb(52, 208, 216);
+      width: 800px;
+      height: 720px;
+      margin: 0px 5px;
+      // padding-bottom: 50px;
     }
   }
 

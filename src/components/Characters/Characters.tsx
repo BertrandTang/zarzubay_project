@@ -36,7 +36,7 @@ function Characters() {
           <article className="characters__pictures">
             <img
               className="characters__pictures--img"
-              src="/img/aurora01.png"
+              src="/img/AURORA_IMG.png"
             />
           </article>
         </section>
